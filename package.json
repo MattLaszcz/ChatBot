@@ -1,0 +1,20 @@
+{
+  "name": "botkit-ada",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "nodemon bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "botbuilder-adapter-web": "^1.0.9",
+    "botbuilder-storage-mongodb": "^0.9.5",
+    "botkit": "^4.10.0",
+    "botkit-plugin-cms": "^1.0.3",
+    "dotenv": "^7.0.0",
+    "nodemon": "^2.0.6"
+  }
+}
+
